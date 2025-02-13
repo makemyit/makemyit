@@ -68,3 +68,96 @@
 
 </body>
 </html>
+/* Basic Styling for the Website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1a73e8;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #2d9cdb;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+#services {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ececec;
+    border-radius: 8px;
+}
+
+#about, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
